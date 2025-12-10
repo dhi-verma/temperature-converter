@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple temperature converter between Celsius and Fahrenheit">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Temperature Converter</h1>
+            <p class="subtitle">Convert between Celsius and Fahrenheit</p>
+        </header>
+
+        <main>
+            <div class="converter-card">
+                <div class="input-group">
+                    <label for="celsius">Celsius (°C)</label>
+                    <input 
+                        type="number" 
+                        id="celsius" 
+                        placeholder="Enter temperature in Celsius"
+                        aria-label="Celsius temperature input"
+                    >
+                </div>
+
+                <div class="conversion-symbol">⇄</div>
+
+                <div class="input-group">
+                    <label for="fahrenheit">Fahrenheit (°F)</label>
+                    <input 
+                        type="number" 
+                        id="fahrenheit" 
+                        placeholder="Enter temperature in Fahrenheit"
+                        aria-label="Fahrenheit temperature input"
+                    >
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button id="clearBtn" class="btn btn-secondary">Clear</button>
+            </div>
+
+            <div class="info-box">
+                <h2>Quick Reference</h2>
+                <ul>
+                    <li>Water freezes at 0°C (32°F)</li>
+                    <li>Room temperature is around 20°C (68°F)</li>
+                    <li>Body temperature is 37°C (98.6°F)</li>
+                    <li>Water boils at 100°C (212°F)</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Temperature Converter | Built with HTML, CSS & JavaScript</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
