@@ -2,9 +2,6 @@
 
 A simple, user-friendly web application for converting temperatures between Celsius and Fahrenheit. Built with HTML, CSS, and vanilla JavaScript.
 
-![Project Status](https://img.shields.io/badge/status-active-success)
-![License](https://img.shields.io/badge/license-MIT-blue)
-
 ## Table of Contents
 
 - [Overview](#overview)
