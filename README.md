@@ -171,6 +171,12 @@ The Lighthouse audit taught me about accessibility features I hadn't really thou
 
 I used GitHub Projects to manage tasks, with a Kanban board split into "To Do," "In Progress," and "Done."
 
+### Workflow
+
+1. Create a feature branch that references the issue number (example: `feature/12-quick-reference`).
+2. Open a PR and include a closing keyword in the PR description, such as `Closes #12`, to link and auto-close the issue.
+3. After merging, verify the issue is closed and confirm the project board card moved to "Done."
+
 **Main tasks:**
 1. Set up project structure
 2. Build HTML structure
